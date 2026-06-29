@@ -1,101 +1,243 @@
 <!doctype html>
+
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Netflix-clone</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <title>AI ChatBot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/slick.css" type="text/css" />   
-    <link rel="stylesheet" href="css/tooplate-simply-amazed.css" type="text/css" />
-<!--
-
-Tooplate 2123 Simply Amazed
-
-https://www.tooplate.com/view/2123-simply-amazed
-
--->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/slick.css" type="text/css" />
+  <link rel="stylesheet" href="css/tooplate-simply-amazed.css" type="text/css" />
+  <link rel="stylesheet" href="css/portfolio.css" type="text/css" />
 </head>
 
 <body>
 
-            <section class="gallery-section  parallax-window" data-parallax="scroll" data-image-src="img/section-3-bg.jpg" id="section-3">
-                <div class="container">
-                    <div class="title text-right">
-                        <h2>Chat-Bot</h2>
-                        <button><a href="https://chatbot-cis.pages.dev/">Go live</a></button>
-                        <button><a href="https://github.com/Hamza0141/ChatBot">GitHub</a></button>
-                    </div>
-                    <div class="mx-auto gallery-slider">
-                        <figure class="effect-julia item">
-                            <img src="images/habeshachat/download.jpg" alt="Image">
-                            <figcaption>
-                                <div>
-                                    <p>Home</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                        
+  <main class="project-case-wrapper">
 
-                    </div>
-                </div>
-            </section>
+<!-- Project Summary -->
+<section class="project-hero-card">
+  <div class="project-label">React & AI API Integration Project</div>
 
-            <div class="detail-wrapper">
-            <div class="detail-holder">
-            <div class="detail-titles"><h2>About</h2></div>
-            <p>This project is a conversational AI chatbot that allows users to interact with OpenAI's powerful language model directly from a web browser. The chatbot interface is built using React and styled with custom CSS for a modern and user-friendly experience. Users can input their queries or prompts into a text box, and the chatbot responds with coherent and contextually relevant replies, simulating a natural conversation.</p>
-            </div>
-            <div class="detail-holder">
-                <div class="detail-titles">
-                    <h2>Technologies</h2>
-                </div>
-                <ul>
-                    <li>React: A popular JavaScript library for building user interfaces. React's component-based architecture allows for efficient UI rendering and management of application state.</li>
-                    <li>Vite: A build tool that provides a faster and leaner development experience for modern web projects. Vite is used to create and run the React application, ensuring quick startup times and hot module replacement for smooth development.</li>
-                    <li>CSS: Used for styling and layout design, ensuring a visually appealing and user-friendly interface.</li>
-                    <li>Axios: A promise-based HTTP client for the browser and Node.js. Axios is used to make API requests to OpenAI's servers.
-                    It simplifies sending asynchronous HTTP requests to REST endpoints and provides easy-to-use methods for handling responses and errors.</li>
-                </ul>
-                <li>OpenAI API: This project utilizes the OpenAI API to access the GPT-3.5-turbo model. OpenAI's API provides powerful natural language processing capabilities, enabling the chatbot to understand and generate human-like text based on the user's input.</li>
-            
-            
-            </div>
-            
+  <h2>AI ChatBot</h2>
 
-            
-            <div class="detail-holder">
-            <div class="detail-titles"><h2>Functionality</h2></div>
-<h4>User Interaction</h4>
-<li>Chat Interface: The application features a simple and intuitive chat interface. Users can type their messages into a text area and submit them by clicking a "Send" button.
-</li>
-    <li>Message Display: Both user messages and AI responses are displayed in a conversation-style format. User messages and AI
-    responses are visually distinct to enhance readability and user experience.</li>
-    <li>Form Submission: When the user submits a message, the handleSubmit function is triggered. This function captures the user's input and sends it to the OpenAI API for processing.
-</li>
-<li>State Management: React's useState hook is used to manage the state of the input field and the array of messages in the conversation. Each new message (user or AI) updates the state, ensuring the UI reflects the latest conversation context.
-</li>
-<h4>Responsive Design</h4>
-<li>Responsive Design: The CSS ensures that the chat interface is responsive, making it accessible and user-friendly on various devices, including desktops, tablets, and mobile phones.
-</li>
+  <p>
+    AI ChatBot is a React-based conversational web application that allows users
+    to interact with an AI language model through a clean browser interface. The
+    project demonstrates frontend development, API integration, asynchronous request
+    handling, state management, and responsive chat UI design.
+  </p>
 
+  <div class="project-actions">
+    <a href="https://chatbot-cis.pages.dev/" target="_blank" class="project-btn primary">View Live Project</a>
+    <a href="https://github.com/Hamza0141/ChatBot" target="_blank" class="project-btn secondary">View Code</a>
+  </div>
+</section>
 
+<!-- Modern Gallery Section -->
+<section class="project-gallery-modern">
 
-
-
-            </div>
-
-            </div>
-            
-
-
-
+  <div class="gallery-header">
+    <div>
+      <span class="project-label small-label">Project Preview</span>
+      <h2>Application Screenshot</h2>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <p>
+      A visual look at the chatbot interface, including the conversation layout,
+      user input field, message display, and AI response experience.
+    </p>
+  </div>
+
+  <!-- Featured Image -->
+  <div class="gallery-featured">
+    <img src="images/habeshachat/download.jpg" alt="AI ChatBot application interface preview">
+
+    <div class="gallery-featured-caption">
+      <h3>Conversational AI Interface</h3>
+      <p>
+        A clean chat experience where users submit prompts, receive AI-generated
+        responses, and interact with the application through a responsive web interface.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- Quick Highlights -->
+<section class="project-highlight-grid">
+  <div class="highlight-card">
+    <h3>AI API Integration</h3>
+    <p>Connected the frontend application to an AI language model through API requests.</p>
+  </div>
+
+  <div class="highlight-card">
+    <h3>React Framework</h3>
+    <p>Built with React components and state management for a dynamic chat experience.</p>
+  </div>
+
+  <div class="highlight-card">
+    <h3>Async Requests</h3>
+    <p>Used Axios to send prompts, handle responses, and update the UI asynchronously.</p>
+  </div>
+
+  <div class="highlight-card">
+    <h3>Cloudflare Deployment</h3>
+    <p>Published as a live frontend application using Cloudflare Pages hosting.</p>
+  </div>
+</section>
+
+<!-- Goal / Solution / Value -->
+<section class="case-study-grid">
+  <div class="case-card">
+    <span class="case-number">01</span>
+    <h3>Goal</h3>
+    <p>
+      The goal of this project was to demonstrate how a frontend application can
+      connect to an AI service and provide a simple, usable conversational interface
+      for real-time user interaction.
+    </p>
+  </div>
+
+  <div class="case-card">
+    <span class="case-number">02</span>
+    <h3>Solution</h3>
+    <p>
+      I built a React chatbot interface that captures user prompts, sends requests
+      to an AI API, receives generated responses, and displays the conversation in
+      a readable chat-style layout.
+    </p>
+  </div>
+
+  <div class="case-card">
+    <span class="case-number">03</span>
+    <h3>Value</h3>
+    <p>
+      The project demonstrates practical AI integration, API request handling,
+      React state management, responsive UI development, and the ability to turn
+      AI services into usable software features.
+    </p>
+  </div>
+</section>
+
+<!-- Key Features -->
+<section class="modern-section">
+  <div class="detail-titles">
+    <h2>Key Features</h2>
+  </div>
+
+  <div class="feature-list">
+    <div class="feature-item">
+      <h4>Conversational Chat Interface</h4>
+      <p>
+        Provides a simple and intuitive interface where users can type prompts
+        and receive AI-generated responses in a conversation format.
+      </p>
+    </div>
+
+    <div class="feature-item">
+      <h4>AI Response Generation</h4>
+      <p>
+        Integrates with an AI language model API to generate contextually relevant
+        responses based on user input.
+      </p>
+    </div>
+
+    <div class="feature-item">
+      <h4>Message State Management</h4>
+      <p>
+        Uses React state to manage user messages, AI responses, input values,
+        and the active conversation flow.
+      </p>
+    </div>
+
+    <div class="feature-item">
+      <h4>Asynchronous API Handling</h4>
+      <p>
+        Uses Axios to send HTTP requests, process API responses, handle loading
+        behavior, and update the interface without refreshing the page.
+      </p>
+    </div>
+
+    <div class="feature-item">
+      <h4>Responsive UI Design</h4>
+      <p>
+        Designed with custom CSS to make the chatbot accessible and usable across
+        desktop, tablet, and mobile screen sizes.
+      </p>
+    </div>
+
+    <div class="feature-item">
+      <h4>User-Friendly Interaction</h4>
+      <p>
+        Displays user and AI messages in a visually distinct format to improve
+        readability and create a natural chat experience.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Technology Stack -->
+<section class="modern-section">
+  <div class="detail-titles">
+    <h2>Technology Stack</h2>
+  </div>
+
+  <div class="tech-grid">
+    <div class="tech-card">
+      <h4>Frontend</h4>
+      <p>React.js, Vite, JSX, custom CSS, responsive layout design</p>
+    </div>
+
+    <div class="tech-card">
+      <h4>AI Integration</h4>
+      <p>OpenAI API for AI-powered natural language response generation.</p>
+    </div>
+
+    <div class="tech-card">
+      <h4>HTTP Requests</h4>
+      <p>Axios for sending prompts, receiving responses, and handling asynchronous API communication.</p>
+    </div>
+
+    <div class="tech-card">
+      <h4>State Management</h4>
+      <p>React useState for managing input values, messages, and conversation updates.</p>
+    </div>
+
+    <div class="tech-card">
+      <h4>Deployment</h4>
+      <p>Cloudflare Pages for live frontend hosting and public access.</p>
+    </div>
+
+    <div class="tech-card">
+      <h4>Version Control</h4>
+      <p>Git and GitHub for source control, project tracking, and code sharing.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Recruiter Value -->
+<section class="recruiter-card">
+  <h2>What This Project Demonstrates</h2>
+
+  <p>
+    This project demonstrates my ability to integrate AI services into a React
+    application and turn API responses into a usable user experience. It highlights
+    practical skills in frontend development, AI API integration, asynchronous request
+    handling, state management, responsive UI design, deployment, and building
+    interactive software features from external services.
+  </p>
+</section>
 
 
-    <script src="js/slick.js"></script>
+  </main>
 
-    <script src="js/templatemo-script.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <script src="js/slick.js"></script>
+
+  <script src="js/templatemo-script.js"></script>
+
 </body>
 </html>
